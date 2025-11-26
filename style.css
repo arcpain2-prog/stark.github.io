@@ -309,11 +309,14 @@ span {
 }
 
 .about-img img {
-    width: 100%;          /* heavy zoom for face only */
-    height: auto;
+    width: 100%;
+    height: 160%;
     object-fit: cover;
-    object-position: center -75%;   /* move far UP to show only face */
+    object-position: center top;
+    border-radius: 50%;
+    border: .2rem solid var(--main-color);
 }
+
 
 
 
